@@ -1,0 +1,19 @@
+src/server.js
+  s_4c9bdf9adef7f6::t_9d4387084ea5df 12-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "e89f15446cce689c5aaca294b81abc4e91c5c049",
+  "prompts": {},
+  "sessions": {
+    "s_4c9bdf9adef7f6": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "659263c7-d2e3-4d91-84a5-074b15ace639",
+        "model": "gpt-4.1"
+      },
+      "human_author": "Lucas Cheistwer <lucas.cheistwer@mercadolibre.com>"
+    }
+  }
+}
