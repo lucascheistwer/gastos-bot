@@ -9,6 +9,8 @@ const app = express();
 // Twilio sends webhook data as application/x-www-form-urlencoded
 app.use(express.urlencoded({ extended: false }));
 
+app.get('/health', (_req, res) => res.json({ status: 'ok' }));
+
 // POST /webhook — incoming WhatsApp messages from Twilio
 app.post('/webhook', handleIncomingMessage);
 
