@@ -1,0 +1,30 @@
+.gitignore
+  h_4f59ee1b9f9c43 1-2
+src/services/sheetsService.js
+  h_4f59ee1b9f9c43 1-100
+.env.example
+  h_4f59ee1b9f9c43 1-19
+.pre-commit-config.yaml
+  s_4c9bdf9adef7f6::t_5cfe2f224e2db1 1-10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.8",
+  "base_commit_sha": "a286c5fdaa745dce64e4ab87e8712c597575caa8",
+  "prompts": {},
+  "humans": {
+    "h_4f59ee1b9f9c43": {
+      "author": "Lucas Cheistwer <lucas.cheistwer@mercadolibre.com>"
+    }
+  },
+  "sessions": {
+    "s_4c9bdf9adef7f6": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "659263c7-d2e3-4d91-84a5-074b15ace639",
+        "model": "gpt-4.1"
+      },
+      "human_author": "Lucas Cheistwer <lucas.cheistwer@mercadolibre.com>"
+    }
+  }
+}
