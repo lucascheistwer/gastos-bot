@@ -53,8 +53,8 @@ function handleIncomingMessage(req, res) {
 }
 
 async function processMessage({ from, messageBody, mediaUrl, mediaContentType, numMedia }, senderName) {
-  // For now, always reply to Luqui regardless of who sent the message
-  const replyTo = process.env.LUQUI_PHONE || from;
+  // Reply to whoever sent the message
+  const replyTo = from;
   let rawText = null;
   let transcribedText = null;
 
